@@ -40,7 +40,7 @@ function loop(feed) {
 }      //Loop through the 4 Feeds
          for (var x=0; x <= 3; x++) {
            loop(allFeeds[x]);
-         };
+         }
 
         /* TODO: Write a test that loops through each feed
          * in the allFeeds object and ensures it has a name defined
@@ -53,9 +53,9 @@ function loop(feed) {
                     expect(feed.name.length).toBeGreaterThan(0); //Name not empty
                   });
          }      //Loop through the 4 Feeds
-                  for (var x=0; x <= 3; x++) {
-                    names(allFeeds[x]);
-                  };
+                  for (var y=0; y <= 3; y++) {
+                    names(allFeeds[y]);
+                  }
     });
 
 

@@ -5,6 +5,6 @@ Testing is an essential Part of Programming and many potential mistakes can be a
 
 ## How to run the Feedreader
 
-1. Download the Project as a ZIP or Clone it via "git clone https://github.com/Vallen89/Nanodegree-Feedreader"
+1. Download the Project as a ZIP or Clone it via "git clone https://github.com/Vallen89/Nanodegree-Feedreader.git"
 2. Open the Index.html file in your Browser
 3. At the Bottom of the RSS-Feed beneath the "Jasmine 2.1.2" you will see the Number of Tests run (Specs) and failures

@@ -102,7 +102,7 @@ describe('Initial Entries', function() {
          });
          //Checks if the Feed Container is not empty
          it("Feed-Container not empty", function() {
-           var feed = $(".entry");
+           var feed = $(".feed .entry");
            expect(feed.length).toBeGreaterThan(0);
          });
 });
@@ -118,10 +118,10 @@ describe('New Feed Selection', function() {
          beforeEach(function(done) {
            loadFeed(0, function() {
              firstLoad = $(".entry").text();
-           });
-           loadFeed(1, function() {
-            secondLoad = $(".entry").text();
-             done();
+             loadFeed(1, function() {
+              secondLoad = $(".entry").text();
+               done();
+             });
            });
          });
          //Compares the two Variables to make sure they are not identical
